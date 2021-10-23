@@ -1,0 +1,45 @@
+#search {
+    color: rgb(114, 8, 8);
+}
+
+nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: black;
+}
+
+.main {
+    font-family: "Zen Old Mincho", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    color: blue
+}
+
+.New:hover {
+    transform: scale(1.2);
+}
+
+.Clothing:hover {
+    transform: scale(1.2);
+}
+
+.Shoes:hover {
+    transform: scale(1.2);
+}
+
+.Accessories:hover {
+    transform: scale(1.2);
+}
+
+input:valid {
+    background-color: chocolate;
+}
+
+.Activewear:hover {
+    background-color: hotpink;
+}

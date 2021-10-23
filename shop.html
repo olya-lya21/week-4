@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
 </head>
 
 <body>
@@ -17,7 +18,7 @@
                 placeholder="Search store" id="name">
         </div>
         <nav>
-            <ul style="padding: 0;">
+            <ul class="main" style="padding: 0;">
                 <li>products</li>
                 <li>story</li>
                 <li>manufacturing</li>
@@ -29,15 +30,16 @@
     </header>
 
     <aside>
-        <h3>Search store</h3>
+        <h3 id="search">Search store</h3>
         <nav>
             <ul style="padding: 0;">
-                <li><object data="asserts/Newin.png" type="image/png"></object>New in
+                <li><object data="asserts/Newin.png" type="image/png" class="New"></object>New in
                 </li>
-                <li><object data="asserts/Clothing.png" type="image/png"></object> Clothing</li>
-                <li><object data="asserts/Shoes.png" type="image/png"></object> Shoes</li>
-                <li><object data="asserts/Accessories.png" type="image/png"></object> Accessories</li>
-                <li><object data="asserts/Activewear.png" type="image/png"></object> Activewear</li>
+                <li><object data="asserts/Clothing.png" type="image/png" class="Clothing"></object> Clothing</li>
+                <li><object data="asserts/Shoes.png" type="image/png" class="Shoes"></object> Shoes</li>
+                <li><object data="asserts/Accessories.png" type="image/png" class="Accessories"></object> Accessories
+                </li>
+                <li><object data="asserts/Activewear.png" type="image/png" class="Activewear"></object> Activewear</li>
                 <li><object data="asserts/Gifts&Living.png" type="image/png"></object> Gifts & Living</li>
                 <li><object data="asserts/Inspiration.png" type="image/png"></object> Inspiration</li>
             </ul>
